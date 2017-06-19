@@ -1,4 +1,4 @@
-/* by Michael X Branson to act as a bufered serial feed of 
+/* by Michael X Branson to act as a buffered serial feed of 
  * visible wifi devices for delivery to a MQTT server.
  * Based on M. Ray Burnette's 'Sniffing6' which is based on a bunch of others :)
  * 

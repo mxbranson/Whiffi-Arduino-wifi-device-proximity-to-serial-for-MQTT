@@ -24,8 +24,13 @@ Turn an ESP-01 into a wifi device proximity serial feed for publishing to MQTT o
     
  History:
  based on RandDruid/esp8266-deauth (MIT) https://github.com/RandDruid/esp8266-deauth
+ 
  inspired by kripthor/WiFiBeaconJam (no license) https://github.com/kripthor/WiFiBeaconJam
+ 
  https://git.schneefux.xyz/schneefux/jimmiejammer/src/master/jimmiejammer.ino
+ 
  requires SDK v1.3: install esp8266/Arduino from git and checkout commit 1c5751460b7988041fdc80e0f28a31464cdf97a3
+ 
  Modified by M. Ray Burnette for publication as WiFi Sniffer 20161013
+ 
  Modified further by Michael X Branson to act as a bufered serial feed of visible devices for delivery to a MQTT server.

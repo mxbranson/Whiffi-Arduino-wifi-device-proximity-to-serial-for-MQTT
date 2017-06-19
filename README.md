@@ -7,7 +7,7 @@ Turn an ESP-01 into a wifi device proximity serial feed for publishing to MQTT o
  * CSV serial: MAC,AP SSID,AP MAC,CHANNEL,RSSI\r\n
 
 ## Working Summary:
- * ESP is set into promiscious mode.
+ * ESP is set into promiscuous mode.
  * Beacons are detected and decoded into Clients and Access Points.
  * On every new client device detection, client info is sent out via serial.
  * Devices are buffered in structure array (clientinfo ci).
